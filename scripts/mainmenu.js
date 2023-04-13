@@ -20,6 +20,11 @@ MyGame.screens["main-menu"] = (function (game) {
       .addEventListener("click", function () {
         game.showScreen("credits");
       });
+    document
+    .getElementById("id-breakout")
+    .addEventListener("click", function () {
+      window.location.replace("https://landondoyle7599.github.io/Breakout/");
+    });
 
   }
 
